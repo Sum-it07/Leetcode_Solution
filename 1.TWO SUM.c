@@ -15,7 +15,6 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
             }
         }
     }
-    // When no solution is found
     *returnSize = 0;
     return NULL;
 }
